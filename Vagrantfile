@@ -6,12 +6,12 @@ Vagrant.configure("2") do |config|
 	
 	# Ubuntu Bionic Beaver 18.04
 	# Apache 2.4.29
-	# PHP 7.2
-	# Node.js 8.10.0
-	# npm 3.5.2
+	# PHP 7.2, 7.0, 5.6
+	# Node.js 10.12.0
+	# npm 6.4.1
 	# nginx 1.14.0
 	# MySQL 5.7.23
-	# Composer 1.7.2
+	# Composer 1.6.3
 	config.vm.box = "houallet/stack"
 	
 	# this is the ip you will connect to.
